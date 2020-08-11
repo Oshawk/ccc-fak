@@ -1,0 +1,20 @@
+My challenge falls into the category of reverse engineering. It focuses on the use of the fork() syscall to traverse a binary tree (parent goes left, child right). Each node will contain an assembly code instruction. Some of the nodes will have valid instructions, some will cause the program to exit. There will only be one valid route through the tree. This will replicate the scenario of reversing heavily obfuscated code.
+
+I have a full POC with comments and diagrams at https://random.oshawk.uk/f4089457-756e-4bbd-97eb-9e031b89d23f.zip
+
+
+The provided program will prompt the user for a password. Only one password (the flag) will display a 'correct' message. The user can obtain this password by reverse engineering the program.
+
+
+The first step would be to gain an understanding of how the program functions. Dynamic analysis capabilities such as gdb and strace can be used to observe the high amount of fork() syscalls. The program could be disassembled and analysed to understand the core traversal mechanic. A hexdump could be used to understand the tree data structure.
+
+One possible second step would be to patch the program in order to provide some logging. The parent pid, current pid and current instruction could be logged after every fork. This would allow the obfiscated program to be traced back from the final instruction to the initial one using the PIDs.
+
+Another possible second step would be to find the final instruction in the graph data structure and use referances to trace backwards.
+
+After deobfiscating, the flag can be recovered from the program quite easily.
+
+
+Since the program will be developed entirely in assembly, it will render most decompilers fairly useless; a lot of automatic interpretation will also be unhelpful. Due to the large number of forks, dynamic analysis will also be very difficult. This means the user's only option will be to analyse the raw assembly code.
+
+It should teach the user not to rely too heavily on tools and should hone their static reverse engineering skills.

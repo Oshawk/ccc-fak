@@ -1,0 +1,25 @@
+fork()                                  = 17148
+fork()                                  = 17151
+fork()                                  = 17153
+fork()                                  = 17155
+fork()                                  = 17157
+fork()                                  = ? ERESTARTNOINTR (To be restarted)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=17148, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+fork()                                  = ? ERESTARTNOINTR (To be restarted)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=17151, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+fork()                                  = ? ERESTARTNOINTR (To be restarted)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=17153, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+fork()                                  = 17174
+--- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=0x5622c1a} ---
+waitpid(-1, NULL, 0)                    = 17148
+waitpid(-1, NULL, 0)                    = 17151
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=17174, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+waitpid(-1, NULL, 0)                    = 17153
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=17155, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+waitpid(-1, NULL, 0)                    = 17155
+waitpid(-1, NULL, 0)                    = 17174
+waitpid(-1, NULL, 0)                    = 17157
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=17157, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+waitpid(-1, NULL, 0)                    = -1 ECHILD (No child processes)
+exit(0)                                 = ?
++++ exited with 0 +++

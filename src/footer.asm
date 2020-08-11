@@ -1,0 +1,3 @@
+; ELF footer.
+
+filesize      equ     $ - $$

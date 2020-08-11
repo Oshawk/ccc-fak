@@ -1,0 +1,4 @@
+--- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=0x4f7ebf7} ---
+waitpid(-1, NULL, 0)                    = -1 ECHILD (No child processes)
+exit(0)                                 = ?
++++ exited with 0 +++

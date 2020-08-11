@@ -1,0 +1,852 @@
+Breakpoint 1 at 0x8049fdb
+Starting program: /fak/solution/program < /dev/random
+
+Breakpoint 1, 0x08049fdb in ?? ()
+0x08048a38 in ?? ()
+=> 0x8048a38:	mov    eax,0x4
+Continuing.
+[Attaching after process 29573 fork to child process 29577]
+[New inferior 2 (process 29577)]
+[Detaching after fork from parent process 29573]
+[Inferior 1 (process 29573) detached]
+[Switching to process 29577]
+
+Thread 2.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049c09 in ?? ()
+=> 0x8049c09:	mov    ebx,0x1
+Continuing.
+[Detaching after fork from child process 29579]
+
+Thread 2.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x080480aa in ?? ()
+=> 0x80480aa:	mov    ecx,0x8049aab
+Continuing.
+[Detaching after fork from child process 29581]
+
+Thread 2.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048e29 in ?? ()
+=> 0x8048e29:	mov    edx,0x14
+Continuing.
+[Attaching after process 29577 fork to child process 29583]
+[New inferior 3 (process 29583)]
+[Detaching after fork from parent process 29577]
+[Inferior 2 (process 29577) detached]
+[Switching to process 29583]
+
+Thread 3.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x080493b1 in ?? ()
+=> 0x80493b1:	int    0x80
+Continuing.
+[Attaching after process 29583 fork to child process 29586]
+[New inferior 4 (process 29586)]
+[Detaching after fork from parent process 29583]
+[Inferior 3 (process 29583) detached]
+[Switching to process 29586]
+
+Thread 4.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048186 in ?? ()
+=> 0x8048186:	mov    eax,0x3
+Continuing.
+[Attaching after process 29586 fork to child process 29588]
+[New inferior 5 (process 29588)]
+[Detaching after fork from parent process 29586]
+[Inferior 4 (process 29586) detached]
+[Switching to process 29588]
+
+Thread 5.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048414 in ?? ()
+=> 0x8048414:	mov    ebx,0x0
+Continuing.
+[Detaching after fork from child process 29590]
+
+Thread 5.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049181 in ?? ()
+=> 0x8049181:	mov    ecx,0x8048c0c
+Continuing.
+[Attaching after process 29588 fork to child process 29592]
+[New inferior 6 (process 29592)]
+[Detaching after fork from parent process 29588]
+[Inferior 5 (process 29588) detached]
+[Switching to process 29592]
+
+Thread 6.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049df8 in ?? ()
+=> 0x8049df8:	mov    edx,0x10
+Continuing.
+[Detaching after fork from child process 29595]
+
+Thread 6.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x080497f1 in ?? ()
+=> 0x80497f1:	int    0x80
+Continuing.
+[Attaching after process 29592 fork to child process 29597]
+[New inferior 7 (process 29597)]
+[Detaching after fork from parent process 29592]
+[Inferior 6 (process 29592) detached]
+[Switching to process 29597]
+
+Thread 7.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048623 in ?? ()
+=> 0x8048623:	mov    edx,0x0
+Continuing.
+[Detaching after fork from child process 29600]
+
+Thread 7.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x080485db in ?? ()
+=> 0x80485db:	mov    al,ds:0x8048c0c
+Continuing.
+[Detaching after fork from child process 29602]
+
+Thread 7.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x080481b2 in ?? ()
+=> 0x80481b2:	cmp    al,0x43
+Continuing.
+[Attaching after process 29597 fork to child process 29604]
+[New inferior 8 (process 29604)]
+[Detaching after fork from parent process 29597]
+[Inferior 7 (process 29597) detached]
+[Switching to process 29604]
+
+Thread 8.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048a80 in ?? ()
+=> 0x8048a80:	jne    0x8048ab3
+Continuing.
+[Attaching after process 29604 fork to child process 29607]
+[New inferior 9 (process 29607)]
+[Detaching after fork from parent process 29604]
+[Inferior 8 (process 29604) detached]
+[Switching to process 29607]
+
+Thread 9.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049420 in ?? ()
+=> 0x8049420:	mov    al,ds:0x8048c0d
+Continuing.
+[Attaching after process 29607 fork to child process 29609]
+[New inferior 10 (process 29609)]
+[Detaching after fork from parent process 29607]
+[Inferior 9 (process 29607) detached]
+[Switching to process 29609]
+
+Thread 10.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049ded in ?? ()
+=> 0x8049ded:	add    al,0x20
+Continuing.
+[Detaching after fork from child process 29612]
+
+Thread 10.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x0804926a in ?? ()
+=> 0x804926a:	cmp    al,0x63
+Continuing.
+[Attaching after process 29609 fork to child process 29614]
+[New inferior 11 (process 29614)]
+[Detaching after fork from parent process 29609]
+[Inferior 10 (process 29609) detached]
+[Switching to process 29614]
+
+Thread 11.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049791 in ?? ()
+=> 0x8049791:	jne    0x8048ab3
+Continuing.
+[Detaching after fork from child process 29616]
+
+Thread 11.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048d72 in ?? ()
+=> 0x8048d72:	mov    al,ds:0x8048c0e
+Continuing.
+[Detaching after fork from child process 29618]
+
+Thread 11.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048b97 in ?? ()
+=> 0x8048b97:	add    al,0x13
+Continuing.
+[Detaching after fork from child process 29620]
+
+Thread 11.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x0804930d in ?? ()
+=> 0x804930d:	cmp    al,0x56
+Continuing.
+[Detaching after fork from child process 29622]
+
+Thread 11.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x080488a8 in ?? ()
+=> 0x80488a8:	jne    0x8048ab3
+Continuing.
+[Attaching after process 29614 fork to child process 29626]
+[New inferior 12 (process 29626)]
+[Detaching after fork from parent process 29614]
+[Inferior 11 (process 29614) detached]
+[Switching to process 29626]
+
+Thread 12.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049341 in ?? ()
+=> 0x8049341:	mov    al,ds:0x8048c0f
+Continuing.
+[Attaching after process 29626 fork to child process 29628]
+[New inferior 13 (process 29628)]
+[Detaching after fork from parent process 29626]
+[Inferior 12 (process 29626) detached]
+[Switching to process 29628]
+
+Thread 13.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048fd1 in ?? ()
+=> 0x8048fd1:	xor    al,0x7b
+Continuing.
+[Attaching after process 29628 fork to child process 29630]
+[New inferior 14 (process 29630)]
+[Detaching after fork from parent process 29628]
+[Inferior 13 (process 29628) detached]
+[Switching to process 29630]
+
+Thread 14.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048430 in ?? ()
+=> 0x8048430:	cmp    al,al
+Continuing.
+[Attaching after process 29630 fork to child process 29632]
+[New inferior 15 (process 29632)]
+[Detaching after fork from parent process 29630]
+[Inferior 14 (process 29630) detached]
+[Switching to process 29632]
+
+Thread 15.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x0804853c in ?? ()
+=> 0x804853c:	jne    0x8048ab3
+Continuing.
+[Attaching after process 29632 fork to child process 29636]
+[New inferior 16 (process 29636)]
+[Detaching after fork from parent process 29632]
+[Inferior 15 (process 29632) detached]
+[Switching to process 29636]
+
+Thread 16.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049025 in ?? ()
+=> 0x8049025:	mov    al,ds:0x8048c10
+Continuing.
+[Attaching after process 29636 fork to child process 29639]
+[New inferior 17 (process 29639)]
+[Detaching after fork from parent process 29636]
+[Inferior 16 (process 29636) detached]
+[Switching to process 29639]
+
+Thread 17.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x080498c9 in ?? ()
+=> 0x80498c9:	sub    al,0x64
+Continuing.
+[Attaching after process 29639 fork to child process 29642]
+[New inferior 18 (process 29642)]
+[Detaching after fork from parent process 29639]
+[Inferior 17 (process 29639) detached]
+[Switching to process 29642]
+
+Thread 18.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048fbc in ?? ()
+=> 0x8048fbc:	cmp    al,al
+Continuing.
+[Detaching after fork from child process 29644]
+
+Thread 18.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049215 in ?? ()
+=> 0x8049215:	jne    0x8048ab3
+Continuing.
+[Attaching after process 29642 fork to child process 29646]
+[New inferior 19 (process 29646)]
+[Detaching after fork from parent process 29642]
+[Inferior 18 (process 29642) detached]
+[Switching to process 29646]
+
+Thread 19.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048d90 in ?? ()
+=> 0x8048d90:	mov    al,ds:0x8048c11
+Continuing.
+[Attaching after process 29646 fork to child process 29650]
+[New inferior 20 (process 29650)]
+[Detaching after fork from parent process 29646]
+[Inferior 19 (process 29646) detached]
+[Switching to process 29650]
+
+Thread 20.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048bdb in ?? ()
+=> 0x8048bdb:	xor    al,0x72
+Continuing.
+[Attaching after process 29650 fork to child process 29656]
+[New inferior 21 (process 29656)]
+[Detaching after fork from parent process 29650]
+[Inferior 20 (process 29650) detached]
+[Switching to process 29656]
+
+Thread 21.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048641 in ?? ()
+=> 0x8048641:	cmp    al,0x42
+Continuing.
+[Detaching after fork from child process 29660]
+
+Thread 21.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049d2c in ?? ()
+=> 0x8049d2c:	jne    0x8048ab3
+Continuing.
+[Attaching after process 29656 fork to child process 29662]
+[New inferior 22 (process 29662)]
+[Detaching after fork from parent process 29656]
+[Inferior 21 (process 29656) detached]
+[Switching to process 29662]
+
+Thread 22.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x0804911f in ?? ()
+=> 0x804911f:	mov    al,ds:0x8048c12
+Continuing.
+[Detaching after fork from child process 29670]
+
+Thread 22.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x080497fc in ?? ()
+=> 0x80497fc:	xor    al,0x91
+Continuing.
+[Attaching after process 29662 fork to child process 29672]
+[New inferior 23 (process 29672)]
+[Detaching after fork from parent process 29662]
+[Inferior 22 (process 29662) detached]
+[Switching to process 29672]
+
+Thread 23.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x080482cd in ?? ()
+=> 0x80482cd:	xor    al,0xff
+Continuing.
+[Detaching after fork from child process 29674]
+
+Thread 23.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049e38 in ?? ()
+=> 0x8049e38:	cmp    al,al
+Continuing.
+[Detaching after fork from child process 29676]
+
+Thread 23.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048838 in ?? ()
+=> 0x8048838:	jne    0x8048ab3
+Continuing.
+[Detaching after fork from child process 29678]
+
+Thread 23.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048f6c in ?? ()
+=> 0x8048f6c:	mov    al,ds:0x8048c13
+Continuing.
+[Detaching after fork from child process 29686]
+
+Thread 23.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048245 in ?? ()
+=> 0x8048245:	mov    bl,0x76
+Continuing.
+[Attaching after process 29672 fork to child process 29690]
+[New inferior 24 (process 29690)]
+[Detaching after fork from parent process 29672]
+[Inferior 23 (process 29672) detached]
+[Switching to process 29690]
+
+Thread 24.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049679 in ?? ()
+=> 0x8049679:	and    bl,0x53
+Continuing.
+[Detaching after fork from child process 29696]
+
+Thread 24.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x0804952f in ?? ()
+=> 0x804952f:	xor    al,bl
+Continuing.
+[Attaching after process 29690 fork to child process 29699]
+[New inferior 25 (process 29699)]
+[Detaching after fork from parent process 29690]
+[Inferior 24 (process 29690) detached]
+[Switching to process 29699]
+
+Thread 25.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049cd9 in ?? ()
+=> 0x8049cd9:	cmp    al,0x65
+Continuing.
+[Detaching after fork from child process 29706]
+
+Thread 25.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048f31 in ?? ()
+=> 0x8048f31:	jne    0x8048ab3
+Continuing.
+[Attaching after process 29699 fork to child process 29709]
+[New inferior 26 (process 29709)]
+[Detaching after fork from parent process 29699]
+[Inferior 25 (process 29699) detached]
+[Switching to process 29709]
+
+Thread 26.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x080480fc in ?? ()
+=> 0x80480fc:	mov    al,ds:0x8048c14
+Continuing.
+[Detaching after fork from child process 29714]
+
+Thread 26.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x080497c8 in ?? ()
+=> 0x80497c8:	sub    al,BYTE PTR ds:0x8048c0c
+Continuing.
+[Detaching after fork from child process 29718]
+
+Thread 26.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049481 in ?? ()
+=> 0x8049481:	cmp    al,0x1c
+Continuing.
+[Attaching after process 29709 fork to child process 29724]
+[New inferior 27 (process 29724)]
+[Detaching after fork from parent process 29709]
+[Inferior 26 (process 29709) detached]
+[Switching to process 29724]
+
+Thread 27.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049bea in ?? ()
+=> 0x8049bea:	jne    0x8048ab3
+Continuing.
+[Detaching after fork from child process 29728]
+
+Thread 27.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048485 in ?? ()
+=> 0x8048485:	mov    al,ds:0x8048c15
+Continuing.
+[Attaching after process 29724 fork to child process 29730]
+[New inferior 28 (process 29730)]
+[Detaching after fork from parent process 29724]
+[Inferior 27 (process 29724) detached]
+[Switching to process 29730]
+
+Thread 28.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048ead in ?? ()
+=> 0x8048ead:	xor    al,BYTE PTR ds:0x8048c10
+Continuing.
+[Detaching after fork from child process 29733]
+
+Thread 28.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048cdb in ?? ()
+=> 0x8048cdb:	cmp    al,0x57
+Continuing.
+[Attaching after process 29730 fork to child process 29736]
+[New inferior 29 (process 29736)]
+[Detaching after fork from parent process 29730]
+[Inferior 28 (process 29730) detached]
+[Switching to process 29736]
+
+Thread 29.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x0804826f in ?? ()
+=> 0x804826f:	jne    0x8048ab3
+Continuing.
+[Attaching after process 29736 fork to child process 29740]
+[New inferior 30 (process 29740)]
+[Detaching after fork from parent process 29736]
+[Inferior 29 (process 29736) detached]
+[Switching to process 29740]
+
+Thread 30.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x0804914a in ?? ()
+=> 0x804914a:	mov    al,ds:0x8048c16
+Continuing.
+[Detaching after fork from child process 29743]
+
+Thread 30.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049da8 in ?? ()
+=> 0x8049da8:	mov    bl,BYTE PTR ds:0x8048c0f
+Continuing.
+[Attaching after process 29740 fork to child process 29745]
+[New inferior 31 (process 29745)]
+[Detaching after fork from parent process 29740]
+[Inferior 30 (process 29740) detached]
+[Switching to process 29745]
+
+Thread 31.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048476 in ?? ()
+=> 0x8048476:	xor    bl,BYTE PTR ds:0x8048c12
+Continuing.
+[Attaching after process 29745 fork to child process 29747]
+[New inferior 32 (process 29747)]
+[Detaching after fork from parent process 29745]
+[Inferior 31 (process 29745) detached]
+[Switching to process 29747]
+
+Thread 32.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049924 in ?? ()
+=> 0x8049924:	xor    al,bl
+Continuing.
+[Detaching after fork from child process 29749]
+
+Thread 32.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048caa in ?? ()
+=> 0x8048caa:	cmp    al,0x21
+Continuing.
+[Detaching after fork from child process 29751]
+
+Thread 32.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049d0e in ?? ()
+=> 0x8049d0e:	jne    0x8048ab3
+Continuing.
+[Attaching after process 29747 fork to child process 29756]
+[New inferior 33 (process 29756)]
+[Detaching after fork from parent process 29747]
+[Inferior 32 (process 29747) detached]
+[Switching to process 29756]
+
+Thread 33.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x0804972a in ?? ()
+=> 0x804972a:	mov    al,ds:0x8048c17
+Continuing.
+[Attaching after process 29756 fork to child process 29760]
+[New inferior 34 (process 29760)]
+[Detaching after fork from parent process 29756]
+[Inferior 33 (process 29756) detached]
+[Switching to process 29760]
+
+Thread 34.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048f89 in ?? ()
+=> 0x8048f89:	xor    al,BYTE PTR ds:0x8048c16
+Continuing.
+[Detaching after fork from child process 29762]
+
+Thread 34.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049cf3 in ?? ()
+=> 0x8049cf3:	sub    al,0x3
+Continuing.
+[Detaching after fork from child process 29766]
+
+Thread 34.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x080485a6 in ?? ()
+=> 0x80485a6:	cmp    al,al
+Continuing.
+[Detaching after fork from child process 29768]
+
+Thread 34.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x080495b7 in ?? ()
+=> 0x80495b7:	jne    0x8048ab3
+Continuing.
+[Detaching after fork from child process 29770]
+
+Thread 34.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049617 in ?? ()
+=> 0x8049617:	mov    al,ds:0x8048c18
+Continuing.
+[Detaching after fork from child process 29773]
+
+Thread 34.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x080498a4 in ?? ()
+=> 0x80498a4:	cmp    al,BYTE PTR ds:0x8048c14
+Continuing.
+[Detaching after fork from child process 29776]
+
+Thread 34.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x080497d7 in ?? ()
+=> 0x80497d7:	jne    0x8048ab3
+Continuing.
+[Attaching after process 29760 fork to child process 29778]
+[New inferior 35 (process 29778)]
+[Detaching after fork from parent process 29760]
+[Inferior 34 (process 29760) detached]
+[Switching to process 29778]
+
+Thread 35.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x080482e6 in ?? ()
+=> 0x80482e6:	mov    al,ds:0x8048c19
+Continuing.
+[Detaching after fork from child process 29781]
+
+Thread 35.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x080490f3 in ?? ()
+=> 0x80490f3:	mov    bl,BYTE PTR ds:0x8048c11
+Continuing.
+[Detaching after fork from child process 29784]
+
+Thread 35.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048f40 in ?? ()
+=> 0x8048f40:	mov    cl,BYTE PTR ds:0x8048c16
+Continuing.
+[Detaching after fork from child process 29787]
+
+Thread 35.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049570 in ?? ()
+=> 0x8049570:	xor    bl,cl
+Continuing.
+[Detaching after fork from child process 29793]
+
+Thread 35.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049327 in ?? ()
+=> 0x8049327:	add    al,bl
+Continuing.
+[Attaching after process 29778 fork to child process 29795]
+[New inferior 36 (process 29795)]
+[Detaching after fork from parent process 29778]
+[Inferior 35 (process 29778) detached]
+[Switching to process 29795]
+
+Thread 36.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048d16 in ?? ()
+=> 0x8048d16:	cmp    al,0x71
+Continuing.
+[Attaching after process 29795 fork to child process 29799]
+[New inferior 37 (process 29799)]
+[Detaching after fork from parent process 29795]
+[Inferior 36 (process 29795) detached]
+[Switching to process 29799]
+
+Thread 37.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048ed1 in ?? ()
+=> 0x8048ed1:	jne    0x8048ab3
+Continuing.
+[Attaching after process 29799 fork to child process 29801]
+[New inferior 38 (process 29801)]
+[Detaching after fork from parent process 29799]
+[Inferior 37 (process 29799) detached]
+[Switching to process 29801]
+
+Thread 38.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x0804838e in ?? ()
+=> 0x804838e:	mov    al,ds:0x8048c1a
+Continuing.
+[Detaching after fork from child process 29806]
+
+Thread 38.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x080490d9 in ?? ()
+=> 0x80490d9:	xor    al,BYTE PTR ds:0x8048c19
+Continuing.
+[Attaching after process 29801 fork to child process 29813]
+[New inferior 39 (process 29813)]
+[Detaching after fork from parent process 29801]
+[Inferior 38 (process 29801) detached]
+[Switching to process 29813]
+
+Thread 39.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048d2c in ?? ()
+=> 0x8048d2c:	xor    al,BYTE PTR ds:0x8048c18
+Continuing.
+[Attaching after process 29813 fork to child process 29820]
+[New inferior 40 (process 29820)]
+[Detaching after fork from parent process 29813]
+[Inferior 39 (process 29813) detached]
+[Switching to process 29820]
+
+Thread 40.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048697 in ?? ()
+=> 0x8048697:	xor    al,BYTE PTR ds:0x8048c17
+Continuing.
+[Attaching after process 29820 fork to child process 29822]
+[New inferior 41 (process 29822)]
+[Detaching after fork from parent process 29820]
+[Inferior 40 (process 29820) detached]
+[Switching to process 29822]
+
+Thread 41.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048509 in ?? ()
+=> 0x8048509:	xor    al,BYTE PTR ds:0x8048c16
+Continuing.
+[Attaching after process 29822 fork to child process 29825]
+[New inferior 42 (process 29825)]
+[Detaching after fork from parent process 29822]
+[Inferior 41 (process 29822) detached]
+[Switching to process 29825]
+
+Thread 42.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048133 in ?? ()
+=> 0x8048133:	xor    al,BYTE PTR ds:0x8048c15
+Continuing.
+[Attaching after process 29825 fork to child process 29827]
+[New inferior 43 (process 29827)]
+[Detaching after fork from parent process 29825]
+[Inferior 42 (process 29825) detached]
+[Switching to process 29827]
+
+Thread 43.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x080483ba in ?? ()
+=> 0x80483ba:	xor    al,BYTE PTR ds:0x8048c14
+Continuing.
+[Detaching after fork from child process 29829]
+
+Thread 43.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049077 in ?? ()
+=> 0x8049077:	xor    al,BYTE PTR ds:0x8048c13
+Continuing.
+[Detaching after fork from child process 29831]
+
+Thread 43.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x0804890a in ?? ()
+=> 0x804890a:	xor    al,BYTE PTR ds:0x8048c12
+Continuing.
+[Attaching after process 29827 fork to child process 29834]
+[New inferior 44 (process 29834)]
+[Detaching after fork from parent process 29827]
+[Inferior 43 (process 29827) detached]
+[Switching to process 29834]
+
+Thread 44.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049dce in ?? ()
+=> 0x8049dce:	xor    al,BYTE PTR ds:0x8048c11
+Continuing.
+[Attaching after process 29834 fork to child process 29836]
+[New inferior 45 (process 29836)]
+[Detaching after fork from parent process 29834]
+[Inferior 44 (process 29834) detached]
+[Switching to process 29836]
+
+Thread 45.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048360 in ?? ()
+=> 0x8048360:	xor    al,BYTE PTR ds:0x8048c10
+Continuing.
+[Attaching after process 29836 fork to child process 29840]
+[New inferior 46 (process 29840)]
+[Detaching after fork from parent process 29836]
+[Inferior 45 (process 29836) detached]
+[Switching to process 29840]
+
+Thread 46.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x0804912d in ?? ()
+=> 0x804912d:	xor    al,BYTE PTR ds:0x8048c0f
+Continuing.
+[Attaching after process 29840 fork to child process 29842]
+[New inferior 47 (process 29842)]
+[Detaching after fork from parent process 29840]
+[Inferior 46 (process 29840) detached]
+[Switching to process 29842]
+
+Thread 47.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049743 in ?? ()
+=> 0x8049743:	xor    al,BYTE PTR ds:0x8048c0e
+Continuing.
+[Attaching after process 29842 fork to child process 29846]
+[New inferior 48 (process 29846)]
+[Detaching after fork from parent process 29842]
+[Inferior 47 (process 29842) detached]
+[Switching to process 29846]
+
+Thread 48.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x0804816c in ?? ()
+=> 0x804816c:	xor    al,BYTE PTR ds:0x8048c0d
+Continuing.
+[Detaching after fork from child process 29849]
+
+Thread 48.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x0804880e in ?? ()
+=> 0x804880e:	xor    al,BYTE PTR ds:0x8048c0c
+Continuing.
+[Attaching after process 29846 fork to child process 29851]
+[New inferior 49 (process 29851)]
+[Detaching after fork from parent process 29846]
+[Inferior 48 (process 29846) detached]
+[Switching to process 29851]
+
+Thread 49.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x080495d3 in ?? ()
+=> 0x80495d3:	cmp    al,0x5b
+Continuing.
+[Detaching after fork from child process 29853]
+
+Thread 49.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x0804830e in ?? ()
+=> 0x804830e:	jne    0x8048ab3
+Continuing.
+[Detaching after fork from child process 29856]
+
+Thread 49.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048ce6 in ?? ()
+=> 0x8048ce6:	mov    al,ds:0x8048c1b
+Continuing.
+[Detaching after fork from child process 29860]
+
+Thread 49.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x080486c4 in ?? ()
+=> 0x80486c4:	dec    al
+Continuing.
+[Attaching after process 29851 fork to child process 29862]
+[New inferior 50 (process 29862)]
+[Detaching after fork from parent process 29851]
+[Inferior 49 (process 29851) detached]
+[Switching to process 29862]
+
+Thread 50.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x0804957b in ?? ()
+=> 0x804957b:	dec    al
+Continuing.
+[Attaching after process 29862 fork to child process 29864]
+[New inferior 51 (process 29864)]
+[Detaching after fork from parent process 29862]
+[Inferior 50 (process 29862) detached]
+[Switching to process 29864]
+
+Thread 51.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049a6f in ?? ()
+=> 0x8049a6f:	cmp    al,BYTE PTR ds:0x8048c0f
+Continuing.
+[Attaching after process 29864 fork to child process 29866]
+[New inferior 52 (process 29866)]
+[Detaching after fork from parent process 29864]
+[Inferior 51 (process 29864) detached]
+[Switching to process 29866]
+
+Thread 52.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048614 in ?? ()
+=> 0x8048614:	jne    0x8048ab3
+Continuing.
+[Detaching after fork from child process 29869]
+
+Thread 52.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049d9a in ?? ()
+=> 0x8049d9a:	mov    eax,0x4
+Continuing.
+[Attaching after process 29866 fork to child process 29871]
+[New inferior 53 (process 29871)]
+[Detaching after fork from parent process 29866]
+[Inferior 52 (process 29866) detached]
+[Switching to process 29871]
+
+Thread 53.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x0804875e in ?? ()
+=> 0x804875e:	mov    ebx,0x1
+Continuing.
+[Attaching after process 29871 fork to child process 29874]
+[New inferior 54 (process 29874)]
+[Detaching after fork from parent process 29871]
+[Inferior 53 (process 29871) detached]
+[Switching to process 29874]
+
+Thread 54.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049102 in ?? ()
+=> 0x8049102:	mov    ecx,0x8049880
+Continuing.
+[Detaching after fork from child process 29876]
+
+Thread 54.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08048aa8 in ?? ()
+=> 0x8048aa8:	test   edx,edx
+Continuing.
+[Attaching after process 29874 fork to child process 29878]
+[New inferior 55 (process 29878)]
+[Detaching after fork from parent process 29874]
+[Inferior 54 (process 29874) detached]
+[Switching to process 29878]
+
+Thread 55.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049871 in ?? ()
+=> 0x8049871:	jne    0x8048f05
+Continuing.
+[Detaching after fork from child process 29880]
+
+Thread 55.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049695 in ?? ()
+=> 0x8049695:	mov    edx,0xd
+Continuing.
+[Detaching after fork from child process 29882]
+
+Thread 55.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x0804854b in ?? ()
+=> 0x804854b:	int    0x80
+Continuing.
+[Detaching after fork from child process 29885]
+
+Thread 55.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x08049512 in ?? ()
+=> 0x8049512:	mov    eax,0x1
+Continuing.
+[Detaching after fork from child process 29888]
+
+Thread 55.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x080495a2 in ?? ()
+=> 0x80495a2:	dec    si
+Continuing.
+[Detaching after fork from child process 29891]
+
+Thread 55.1 "program" hit Breakpoint 1, 0x08049fdb in ?? ()
+0x080488f0 in ?? ()
+=> 0x80488f0:	cmp    al,BYTE PTR ds:0x3039c29

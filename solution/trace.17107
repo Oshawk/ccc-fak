@@ -1,0 +1,13 @@
+execve("./program", ["./program"], 0x7fff5d81ecb8 /* 24 vars */) = 0
+mprotect(0x8048000, 8192, PROT_READ|PROT_WRITE|PROT_EXEC) = 0
+sigaction(SIGSEGV, {sa_handler=0x8049f5c, sa_mask=[], sa_flags=0}, NULL) = 0
+fork()                                  = 17108
+fork()                                  = 17110
+--- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=0x508e62f} ---
+waitpid(-1, NULL, 0)                    = 17110
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=17110, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+waitpid(-1, NULL, 0)                    = 17108
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=17108, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+waitpid(-1, NULL, 0)                    = -1 ECHILD (No child processes)
+exit(0)                                 = ?
++++ exited with 0 +++

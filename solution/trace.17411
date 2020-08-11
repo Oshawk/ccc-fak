@@ -1,0 +1,20 @@
+fork()                                  = 17412
+fork()                                  = 17415
+write(1, "Incorrect :(\n", 13)          = 13
+fork()                                  = 17418
+fork()                                  = 17421
+fork()                                  = 17423
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=17412, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=17421, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=17423, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+--- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=0x3039c29} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=17418, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+waitpid(-1, NULL, 0)                    = 17412
+waitpid(-1, NULL, 0)                    = 17418
+waitpid(-1, NULL, 0)                    = 17421
+waitpid(-1, NULL, 0)                    = 17423
+waitpid(-1, NULL, 0)                    = 17415
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=17415, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+waitpid(-1, NULL, 0)                    = -1 ECHILD (No child processes)
+exit(0)                                 = ?
++++ exited with 0 +++

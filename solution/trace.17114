@@ -1,0 +1,11 @@
+write(1, "Enter the password: ", 20)    = 20
+fork()                                  = 17115
+fork()                                  = 17119
+--- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=0x5bdaecd} ---
+waitpid(-1, NULL, 0)                    = 17119
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=17119, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+waitpid(-1, NULL, 0)                    = 17115
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=17115, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+waitpid(-1, NULL, 0)                    = -1 ECHILD (No child processes)
+exit(0)                                 = ?
++++ exited with 0 +++

@@ -1,0 +1,18 @@
+fork()                                  = 17124
+read(0, 0x8048c0c, 16)                  = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=17124, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+read(0, "AAAAAAAAAAAAAAAA", 16)         = 16
+fork()                                  = 17130
+fork()                                  = 17132
+fork()                                  = 17135
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=17132, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+--- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=0x5622c1a} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=17135, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+waitpid(-1, NULL, 0)                    = 17124
+waitpid(-1, NULL, 0)                    = 17132
+waitpid(-1, NULL, 0)                    = 17135
+waitpid(-1, NULL, 0)                    = 17130
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=17130, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+waitpid(-1, NULL, 0)                    = -1 ECHILD (No child processes)
+exit(0)                                 = ?
++++ exited with 0 +++

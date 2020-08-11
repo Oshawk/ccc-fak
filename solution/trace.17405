@@ -1,0 +1,13 @@
+fork()                                  = 17407
+fork()                                  = 17411
+fork()                                  = 17413
+--- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=0x2307b26} ---
+waitpid(-1, NULL, 0)                    = 17413
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=17413, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+waitpid(-1, NULL, 0)                    = 17407
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=17407, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+waitpid(-1, NULL, 0)                    = 17411
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=17411, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+waitpid(-1, NULL, 0)                    = -1 ECHILD (No child processes)
+exit(0)                                 = ?
++++ exited with 0 +++

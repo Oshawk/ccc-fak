@@ -1,0 +1,106 @@
+mov    eax,0x4
+mov    ebx,0x1
+mov    ecx,0x8049aab
+mov    edx,0x14
+int    0x80
+mov    eax,0x3
+mov    ebx,0x0
+mov    ecx,0x8048c0c
+mov    edx,0x10
+int    0x80
+mov    edx,0x0
+mov    al,ds:0x8048c0c
+cmp    al,0x43
+jne    0x8048ab3
+mov    al,ds:0x8048c0d
+add    al,0x20
+cmp    al,0x63
+jne    0x8048ab3
+mov    al,ds:0x8048c0e
+add    al,0x13
+cmp    al,0x56
+jne    0x8048ab3
+mov    al,ds:0x8048c0f
+xor    al,0x7b
+cmp    al,al
+jne    0x8048ab3
+mov    al,ds:0x8048c10
+sub    al,0x64
+cmp    al,al
+jne    0x8048ab3
+mov    al,ds:0x8048c11
+xor    al,0x72
+cmp    al,0x42
+jne    0x8048ab3
+mov    al,ds:0x8048c12
+xor    al,0x91
+xor    al,0xff
+cmp    al,al
+jne    0x8048ab3
+mov    al,ds:0x8048c13
+mov    bl,0x76
+and    bl,0x53
+xor    al,bl
+cmp    al,0x65
+jne    0x8048ab3
+mov    al,ds:0x8048c14
+sub    al,BYTE PTR ds:0x8048c0c
+cmp    al,0x1c
+jne    0x8048ab3
+mov    al,ds:0x8048c15
+xor    al,BYTE PTR ds:0x8048c10
+cmp    al,0x57
+jne    0x8048ab3
+mov    al,ds:0x8048c16
+mov    bl,BYTE PTR ds:0x8048c0f
+xor    bl,BYTE PTR ds:0x8048c12
+xor    al,bl
+cmp    al,0x21
+jne    0x8048ab3
+mov    al,ds:0x8048c17
+xor    al,BYTE PTR ds:0x8048c16
+sub    al,0x3
+cmp    al,al
+jne    0x8048ab3
+mov    al,ds:0x8048c18
+cmp    al,BYTE PTR ds:0x8048c14
+jne    0x8048ab3
+mov    al,ds:0x8048c19
+mov    bl,BYTE PTR ds:0x8048c11
+mov    cl,BYTE PTR ds:0x8048c16
+xor    bl,cl
+add    al,bl
+cmp    al,0x71
+jne    0x8048ab3
+mov    al,ds:0x8048c1a
+xor    al,BYTE PTR ds:0x8048c19
+xor    al,BYTE PTR ds:0x8048c18
+xor    al,BYTE PTR ds:0x8048c17
+xor    al,BYTE PTR ds:0x8048c16
+xor    al,BYTE PTR ds:0x8048c15
+xor    al,BYTE PTR ds:0x8048c14
+xor    al,BYTE PTR ds:0x8048c13
+xor    al,BYTE PTR ds:0x8048c12
+xor    al,BYTE PTR ds:0x8048c11
+xor    al,BYTE PTR ds:0x8048c10
+xor    al,BYTE PTR ds:0x8048c0f
+xor    al,BYTE PTR ds:0x8048c0e
+xor    al,BYTE PTR ds:0x8048c0d
+xor    al,BYTE PTR ds:0x8048c0c
+cmp    al,0x5b
+jne    0x8048ab3
+mov    al,ds:0x8048c1b
+dec    al
+dec    al
+cmp    al,BYTE PTR ds:0x8048c0f
+jne    0x8048ab3
+mov    eax,0x4
+mov    ebx,0x1
+mov    ecx,0x8049880
+test   edx,edx
+jne    0x8048f05
+mov    edx,0xd
+int    0x80
+mov    eax,0x1
+dec    si
+cmp    al,BYTE PTR ds:0x3039c29
