@@ -26,7 +26,7 @@ _start:
 sigaction:
     ; Exit gracefully on segfault.
 
-    ; sigaction(11 (SIGSEGV), action (-> {exit, [], 0)}, NULL)
+    ; sigaction(11 (SIGSEGV), action (-> {exit, [], 0}), NULL)
     mov     eax, 67
     mov     ebx, 11
     mov     ecx, action
